@@ -1,7 +1,9 @@
 body {
     background: silver;
 }
-.target {color: black}
+.target {
+    color: black
+}
 .box {
     padding: 10px;
     background: white;
@@ -10,7 +12,6 @@ body {
 html {
     scroll-behavior: smooth;
 }
-
 .target2 {
     justify-content: center;
     color: black;
@@ -35,26 +36,23 @@ html {
 }
 .box5 {
     display: flex;
-    justify-content: left;
     margin: 10px;
     width: 300px;
     height: 300px;
-
 }
 .box6 {
     display: flex;
     justify-items: right;
     padding: 10px;
     background: white;
-    margin-top: 0px;
+    margin-top: 5px;
     margin-left: 10px;
     margin-right: 10px;
-    margin-bottom: 0px;
+    margin-bottom: 5px;
     min-width: 1440px;
     height: 280px;
 }
 .box7 {
-    margin-top: 0px;
     background: white;
     margin: 10px;
 }
