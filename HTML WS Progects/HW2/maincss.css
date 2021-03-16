@@ -1,1 +1,28 @@
-body{background: aquamarine;}
+body {
+    background: whitesmoke;
+}
+.box {
+    padding: 20px;
+    background: aquamarine;
+    margin: 20px;
+}
+.target {
+    color: black
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.target2 {
+    color: black;
+    background: silver;
+}
+.box2 {width: 300px;
+    min-height: 400px;
+   }
+.box3 {
+    display: flex;
+    margin: 15px;
+    justify-content: space-between;
+}
