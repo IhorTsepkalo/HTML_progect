@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Flex 2</title>
+        <title>Flex 3</title>
         <link rel="stylesheet" href="main_flex2.css">
     </head>
     <body>
@@ -12,17 +12,19 @@
             </div>
             <div class="boxBottom flex">
                 <div class="boxB-E">
-                    <div class="boxB flex">
-                        <h1>B</h1>
+                    <div class="boxCDE boxB flex">
+                        <div class="boxC flex"><h1>B</h1></div>
+                        <div class="boxC flex margin-x"><h1>C</h1></div>
+                        <div class="boxC flex"><h1>D</h1></div>
                     </div>
                     <div class="boxCDE boxBottom flex">
-                        <div class="boxC flex"><h1>C</h1></div>
-                        <div class="boxC flex margin-x"><h1>D</h1></div>
                         <div class="boxC flex"><h1>E</h1></div>
+                        <div class="boxC flex margin-x"><h1>F</h1></div>
+                        <div class="boxC flex"><h1>G</h1></div>
                     </div>
                 </div>
                 <div class="boxBottom boxF flex">
-                    <div><h1>F</h1></div>
+                    <div><h1>H</h1></div>
                 </div>
             </div>
         </div>

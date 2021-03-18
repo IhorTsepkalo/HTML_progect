@@ -1,0 +1,61 @@
+
+.Fatherbackground {
+    width: auto;
+    height: 900px;
+    background: white;
+    margin: auto;
+}
+
+.boxA {
+    height: 33%;
+    background: silver;
+    margin-bottom: 10px;
+}
+
+.boxBottom {
+    height: 66%;
+    background: white;
+}
+
+.boxB-E {
+    width: 67%;
+    height: 100%;
+    margin-right: 10px;
+}
+
+.boxB {
+    width: 100%;
+    height: 49.5%;
+    background: silver;
+    margin-bottom: 0.5%;
+}
+
+.boxCDE {
+    width: 100%;
+    height: 49.5%;
+    background: white;
+}
+
+.boxC {
+    width: 33%;
+    height: 100%;
+    background: silver;
+}
+
+.margin-x {
+    margin-right: 0.5%;
+    margin-left: 0.5%;
+}
+
+.boxF {
+    width: 33%;
+    height: 100%;
+    background: silver;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
