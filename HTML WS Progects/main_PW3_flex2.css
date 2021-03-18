@@ -1,0 +1,51 @@
+.Fatherbackground {
+    width: auto;
+    height: 900px;
+    background: white;
+    margin: auto;
+}
+
+.boxA {
+    width: 100%;
+    height: 15%;
+    background: lightskyblue;
+    margin-bottom: 0.5%;
+}
+
+.boxB {
+    width: 100%;
+    height: 10%;
+    background: dodgerblue;
+    margin-bottom: 0.5%;
+}
+
+.boxC {
+    width: 100%;
+    height: 60%;
+    margin-bottom: 0.5%;
+}
+
+.boxD {
+    width: 100%;
+    height: 15%;
+    background: cornflowerblue;
+}
+
+.boxE {
+    width: 70%;
+    height: 100%;
+    background: lightsteelblue;
+    margin-right: 0.5%;
+}
+
+.boxF {
+    width: 30%;
+    height: 100%;
+    background: cadetblue;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
