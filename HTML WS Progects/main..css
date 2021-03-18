@@ -1,0 +1,46 @@
+
+.Fatherbackground {
+    width: auto;
+    height: 900px;
+    background: white;
+    margin: auto;
+}
+
+.boxA {
+    height: 33%;
+    background: silver;
+    box-sizing: border-box;
+}
+
+.boxBottom {
+    height: 66%;
+    background: white;
+}
+
+.boxB {
+    width: 67%;
+    height: 100%;
+    margin-right: 5px;
+}
+
+.boxC {
+    width: 33%;
+    height: 100%;
+    margin-left: 5px;
+}
+
+.margin-x {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.margin-y {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
