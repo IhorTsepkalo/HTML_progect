@@ -169,4 +169,18 @@ position: relative;
          }
 
 }
-
+.main_content_right {
+    height: 490px;
+    width: 490px;
+    margin-right: 200px;
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.main_image {
+    position: absolute;
+    bottom: 76px;
+    left: 50px;
+}
