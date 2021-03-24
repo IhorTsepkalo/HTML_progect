@@ -346,7 +346,7 @@
 //alert(name);
 //alert(age);
 //alert(hobby);
-//document.write(name+' '+age+' '+hobby);
+//document.write(`<p>${name}</p> <p>${age}</p> <p>${hobby}</p>`);
 
 // 9 task. Создать 4 переменные с использованием ключевого слова let с именами str1, str2, str3, concatenation.
 // Переменной str1 присвоить фразу ‘Кто ‘, str2 – ‘ты ‘, str3 – ‘такой?’ Локальной переменной concatenation присвоить результат конкатенации 3-х строк: str1, str2, str3.
@@ -423,5 +423,18 @@
 //    console.log(a);
 //}
 
-
+// 2 task.
+//let color = prompt('Enter color');
+//if (color === 'green') {
+//console.log('go')
+//}
+//else if (color === 'yellow') {
+//    console.log('get ready')
+//}
+//else if (color === 'red') {
+//    console.log('wait')
+//}
+//else {
+//    console.log('what a fuk')
+//}
 
