@@ -389,6 +389,39 @@
 //let welcome = 'Добрий вечір' + ' ' + firstName + ' ' + secondName + ' ' + 'мої вітання, що вам' + ' ' +age;
 //alert(welcome);
 
+//////////////////////////////Додатково
+
+// 1 task. Три різних числа вводяться через prompt().
+// За допомоги if else вивести іх в порядку зростання. (відсортувати по зростанню)
+//let a = +prompt('Число 1');
+//let b = +prompt('Число 2');
+//let c = +prompt('Число 3');
+//
+//if (a > b && a > c && b > c) {
+//    console.log(a);
+//    console.log(b);
+//    console.log(c)
+//} else if (b > a && b > c && a > c) {
+//    console.log(b);
+//    console.log(a);
+//    console.log(c);
+//} else if (c > b && c > a && a > b) {
+//    console.log(c);
+//    console.log(a);
+//    console.log(b);
+//} else if (a > b && c > b && a > c) {
+//    console.log(a);
+//    console.log(c);
+//    console.log(b);
+//} else if (b > a && b > c && c > a) {
+//    console.log(b);
+//    console.log(c);
+//    console.log(a);
+//} else if (c > b && c > a && b > a) {
+//    console.log(c);
+//    console.log(b);
+//    console.log(a);
+//}
 
 
 
