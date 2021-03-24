@@ -278,7 +278,6 @@
 //console.log((!!111 == !!11 || 45 < 111) && (99 > 100 && 45 > 12 )); false
 
 
-
 ///////////////////CLASS
 
 // 1 task. Определите переменные str, num, flag и txt со значениями «Привет», 123, true, «true». При помощи оператора typeof убедитесь, что значения переменных принадлежат типам: string, number и  boolean.
@@ -341,12 +340,54 @@
 //console.log(str);
 
 // 8 task. Вывести в окно браузера при помощи метода alert() следующие данные: Ваше ФИО, возраст, хобби (каждой на новой строки спомощью \n).
-let name = 'Ігор Васильович Цепкало';
-let age = '33 роки';
-let hobby = 'футбол';
-alert(name);
-alert(age);
-alert(hobby);
-document.write(name)/n;
-document.write(age);
-//document.write(hobby);
+//let name = 'Ігор Васильович Цепкало';
+//let age = '33 роки';
+//let hobby = 'футбол';
+//alert(name);
+//alert(age);
+//alert(hobby);
+//document.write(name+' '+age+' '+hobby);
+
+// 9 task. Создать 4 переменные с использованием ключевого слова let с именами str1, str2, str3, concatenation.
+// Переменной str1 присвоить фразу ‘Кто ‘, str2 – ‘ты ‘, str3 – ‘такой?’ Локальной переменной concatenation присвоить результат конкатенации 3-х строк: str1, str2, str3.
+// Вывести в документ содержимое переменной concatenation спомощью document.write
+//let str1 = 'Хто';
+//let str2 = 'ти';
+//let str3 = 'такий?';
+//let concatenation = (str1+' '+str2+' '+str3);
+//document.write(concatenation);
+
+// 10 task. Какие значения выведет в окно браузера следующий фрагмент кода?  и почему?
+//let str = "20";
+//let a = 5;
+//document.write(str + a+ "<br/>");//205
+//document.write(str - a + "<br/>");//15
+//document.write(str * "2" + "<br/>");//40
+//document.write(str / 2 + "<br/>");//10
+
+// 11 task. Какие значения выведет в окно консоли следующий фрагмент кода если его поместить в console.log?
+//parseInt("3.14")//3
+//parseInt("-7.875")//-7
+//parseInt("435")//435
+//parseInt("Вася")//NoN
+
+// 12 task.  С помощью окна ввода, вызываемого методом prompt, пользователь может ввести данные, которые будут использоваться далее, повторите код ниже
+//let str = prompt("Enter something", "ho-ho");
+//console.log(str);
+
+// 13 task.  С помощью окна ввода, вызываемого методом prompt, сделать сложение двух чисел, а вывод результата при помощи метода alert
+//let a1 = +prompt('number 1');
+//let b2 = +prompt('number 2');
+//let summ = a1 +  b2;
+//alert(summ);
+
+// 14 task. С помощью окна ввода, вызываемого методом prompt, пользователь последовательно выводит имя, фамилию и возраст, а вам не обходимо вывести строку такого вида
+//       Доброго вечера Иван Иванов, мои поздравления что вам 32 , а вывод результата при помощи метода alert
+//let firstName = prompt('Імя');
+//let secondName = prompt('Прізвище');
+//let age = +prompt('Вік');
+//let welcome = 'Добрий вечір' + ' ' + firstName + ' ' + secondName + ' ' + 'мої вітання, що вам' + ' ' +age;
+//alert(welcome);
+
+
+
